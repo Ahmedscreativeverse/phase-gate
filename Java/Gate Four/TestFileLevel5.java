@@ -20,7 +20,7 @@ public class TestFileLevel5 {
     public void testGetPrimes() {
        
        
-        int[] actual = MethodsLevelFive.getPrimes(new int[]{5, 9, 3, 6, 2});
+        int[] actual = MethodsLevelFive.getPrimes{5, 9, 3, 6, 2};
        
         int[] expected = {2, 3, 5};
 
