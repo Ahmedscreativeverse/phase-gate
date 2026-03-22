@@ -25,16 +25,16 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
    
     
     
-//    @Test
-//    
-//    public void testForDifferentLength() {
-//    
-//    boolean actual = WeekendSnacksMethod.arraysEquals(new int[]{2,4,6,8,10}, new int[]{2,4,6});
-//    
-//    boolean expected = false;
-//    
-//    assertEquals(actual, expected);
-//    
-//    
-//    }
-//    
+   @Test
+   
+   public void testForDifferentLength() {
+   
+   boolean actual = WeekendSnacksMethod.arraysEquals(new int[]{2,4,6,8,10}, new int[]{2,4,6});
+   
+   boolean expected = false;
+   
+   assertEquals(actual, expected);
+   
+   
+   }
+   
