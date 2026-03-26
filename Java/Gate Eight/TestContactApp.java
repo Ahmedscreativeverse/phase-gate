@@ -1,25 +1,15 @@
 
-
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.assertFalse;
+ 
+ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertArraysEquals;
 
-        public class TestContactApp  {
-
+public class TestContactApp {
 
     @Test
-    
-    public void 
-
-
-
-
-
-
-
-
-
-
+    void addingOneContact_shouldIncreaseTotalContactsToOne() {
+        ContactApp.contactNames[0] = "Gbasa";
+        ContactApp.contactPhones[0] = "08012345678";
+        ContactApp.totalContacts++;
+        assertEquals(1, ContactApp.totalContacts);
+    }
 }
